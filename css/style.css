@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	margin-right: 100px;
+	margin-left: 100px;
+	box-shadow: 0 8px 50px 0 rgba(0,0,0, 0.6);
+	transition: all 0.5s linear;
+}
+.container:hover{
+	box-shadow: 0 8px 50px 0 rgba(0,0,0, 0.6);
+	transform: scale(1.02);
+}
+.pad{
+	margin: 0 5px;
+}
+.logo{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.logo img{
+	height:40px;
+    width:110px;
+}
+.group{
+	text-align: center;
+	margin: 25px 0;
+}
+.group p{
+	color: #000;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+}
+.group .st1{
+	color: #4885ED;
+}
+.group .st2{
+	color: #DB3236;
+}
+.group .st3{
+ color: #0BA26D;
+}
+.group .st4{
+ color: #F4C20D;
+}
+
+.myImage{
+	text-align: center;
+}
+.myImage img{
+	width: 100%;
+}
+.business{
+	padding: 20px 0 15px;
+}
+.my_text{
+	text-align: justify;
+	color: #777;
+	font-size: 13px;
+	margin-bottom: 40px;
+}
+.budget{
+	background-color: #0BA26D;
+	text-align: center;
+	color: #fff;
+	padding: 50px;
+	font-weight: bolder;
+	font-size: 48px;
+	box-sizing: border-box;
+	margin: 40px 0;
+}
